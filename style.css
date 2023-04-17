@@ -1,0 +1,35 @@
+body {
+    background-color: skyblue;
+    overflow: hidden;
+}
+     /* Định dạng cho nút bắt đầu */
+.bird {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url('DCTM_Penguin_UK_DK_AL526630_wkmzns.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform-origin: center;
+}
+
+
+.pipe {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    background-color: green;
+}
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .bird {
+        left: 20px;
+    }
+    .pipe {
+        width: 60px;
+    }
+}
+
+
